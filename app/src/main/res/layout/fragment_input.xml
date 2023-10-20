@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.InputFragment">
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/llCriterias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:divider="@drawable/divider"
+            android:orientation="vertical"
+            android:showDividers="middle"
+
+            android:paddingBottom="10dp">
+
+            <CheckedTextView
+                android:id="@+id/cb0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/transit" />
+
+            <CheckedTextView
+                android:id="@+id/cb1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/payment" />
+
+            <CheckedTextView
+                android:id="@+id/cb2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/invalid" />
+
+            <CheckedTextView
+                android:id="@+id/cb3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/consultation" />
+
+            <CheckedTextView
+                android:id="@+id/cb4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/reissue" />
+
+            <CheckedTextView
+                android:id="@+id/cb5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/safe" />
+
+            <CheckedTextView
+                android:id="@+id/cb6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/account_statement" />
+
+            <CheckedTextView
+                android:id="@+id/cb7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/Insurance" />
+
+            <CheckedTextView
+                android:id="@+id/cb8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/business_account" />
+
+            <CheckedTextView
+                android:id="@+id/cb9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/refinance" />
+
+            <CheckedTextView
+                android:id="@+id/cb10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/usd" />
+
+            <CheckedTextView
+                android:id="@+id/cb11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/eur" />
+
+            <CheckedTextView
+                android:id="@+id/cb12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/new_account" />
+
+            <CheckedTextView
+                android:id="@+id/cb13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/credit" />
+
+            <CheckedTextView
+                android:id="@+id/cb14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/credit_card" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

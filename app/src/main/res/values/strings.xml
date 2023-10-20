@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Шайлушай</string>
+    <string name="server_error">Что-то пошло не так на сервере</string>
+
+    <string name="settings_message">Выберете параментры поиска</string>
+
+    <string name="cancel">Отменить</string>
+    <string name="submit">Подтвердить</string>
+
+    <!-- Услуги -->
+    <string name="transit"> Перевод денежных средств</string>
+    <string name="payment"> Оплата услуг и коммунальных платежей</string>
+    <string name="invalid"> Поддержка инвалидов</string>
+    <string name="consultation"> Консультирование по инвестированию и управлению финансами</string>
+    <string name="reissue"> Перевыпуск/замена утерянной или поврежденной банковской карты</string>
+    <string name="safe"> Открытие сейфового хранилища</string>
+    <string name="account_statement"> Получение выписок по счету</string>
+    <string name="Insurance"> Услуги страхования</string>
+    <string name="business_account"> Открытие счета для бизнеса или предпринимателя</string>
+    <string name="refinance"> Рефинансирование кредита или перевод его в другой банк</string>
+    <string name="usd"> Размен USD</string>
+    <string name="eur"> Размен EUR</string>
+    <string name="new_account"> Открытие нового счета/депозита</string>
+    <string name="credit"> Получение кредита/ипотеки</string>
+    <string name="credit_card"> Оформление кредитной карты</string>
+</resources>
