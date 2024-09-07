@@ -11,8 +11,10 @@ User can build route with different ways:
 - Subway
 ![Screenshot_20240907_183636](https://github.com/user-attachments/assets/2367cb7d-cbe5-43b7-becb-e0b5e891966c)
 
-Instalation To use it, you should:
+The data is hardcoded due to lack of server
 
+**Instalation**
+To use it, you should:
 - Clone the repository;
 - Open project in android studio;
 - Build .apk file for release;
