@@ -12,7 +12,6 @@ class ResponseHandler(private val activity: MainActivity) {
 
     private val tag = "http"
     fun handle(response: Response<List<BankResponse>>) {
-
         val body = response.body()
         if (body == null) {
             Toast.makeText(
